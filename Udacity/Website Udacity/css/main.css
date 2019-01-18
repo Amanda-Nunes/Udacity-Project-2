@@ -39,6 +39,7 @@ time, mark, audio, video {
   }
   .header__profile{
     display: block;
+    border:white solid 4px;
     border-radius: 50%;
     position: relative;
     height: 120px;
@@ -46,6 +47,17 @@ time, mark, audio, video {
     margin: auto;
     margin-top: -55px;
     box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
+  }
+  .header__profile_icon{
+    display: block;
+    position: relative;
+    border:white solid 2px;
+    border-radius: 50%;
+    width: 42px;
+    margin-top: -38px;
+    margin-left: 55%;
+    transform: rotate(-40deg);
+    z-index: 2;
   }
   .header__title{
       text-align: center;
