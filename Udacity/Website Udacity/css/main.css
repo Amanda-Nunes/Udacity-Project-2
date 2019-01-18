@@ -22,7 +22,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+html{
+  background-color: #F9FBFD;
+}
 /*
  *
  * Header
@@ -34,7 +36,7 @@ time, mark, audio, video {
     position: relative;
     background-image: url("../img/main_bg.jpg");
     background-size: cover;
-    height: 140px;
+    height: 200px;
     box-shadow: 4px 8px 20px 0 rgba(120,135,182,.1);
   }
   .header__profile{
@@ -54,8 +56,8 @@ time, mark, audio, video {
     border:white solid 2px;
     border-radius: 50%;
     width: 42px;
-    margin-top: -38px;
-    margin-left: 55%;
+    margin-top: -31px;
+    margin-left: 51%;
     transform: rotate(-40deg);
     z-index: 2;
   }
@@ -66,29 +68,40 @@ time, mark, audio, video {
   .header__title h1{
     color: #525c65;
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .header__title h3{
     color:#e77913;
+    font-family: Times New Roman, Times, serif;
   }
   hr{
-    height: 1px;
+    height: 2px;
     border: 0;
-    background: #e77913;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(231, 121, 19, 0.75), rgba(0, 0, 0, 0));
+    width: 80%;
+    box-shadow: 0 10px 10px -10px #e77913 inset;
   }
 
-  /*
+ /*
   *
   * Main Page
   * 
   */
+  main h1{
+    color: #e77913;
+    font-size: 25px;
+    margin-left: 10%;
+  }
   a{
     color: #e77913;
     text-decoration: none;
   }
+  a:hover h2{
+    color: #e77913;
+  }
   .container{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
   }
   .container_item{
     padding-top: 25px;
@@ -96,11 +109,30 @@ time, mark, audio, video {
   }
   .container_item img{
     width: 260px;
+    height: 160px;
     box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
   }
   .container h2{
     color: #525c65;
   }
-  .container_item h2,h3{
+  .container_item h2{
     text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
   }
+
+  /*
+  *
+  * Footer
+  * 
+  */
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #525c65;
+  height: 60px;
+}
+.footer img{
+  width: 30px;
+  height: 30px;
+}
