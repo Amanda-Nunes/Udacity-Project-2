@@ -12,7 +12,7 @@ Giovanni Portifolio Website
 
 ![](img/website.PNG)
 
-![Main page of my website on mobile](img/website_mobile.png)
+![](img/website_mobile.PNG)
 
 ### License
 
