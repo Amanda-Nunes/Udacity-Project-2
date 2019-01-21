@@ -3,12 +3,10 @@ Giovanni Portifolio Website
 
 ### Website Content
 
-1.  Header
+1.  Profile
 2.  Profile Photo
-
 3.  Projects
-
-4.  Footer
+4.  Contact
 
 ![](img/website.PNG)
 
