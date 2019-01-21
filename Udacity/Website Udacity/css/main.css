@@ -97,7 +97,8 @@ body{
   main h1{
     color: #e77913;
     font-size: 25px;
-    margin-left: 10%;
+    text-align: center;
+    margin-top: 25px;
   }
   a{
     color: #e77913;
@@ -109,7 +110,7 @@ body{
   .container{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
   }
   .container_item{
     padding-top: 25px;
@@ -118,7 +119,8 @@ body{
   }
   .container_item img{
     width: 260px;
-    height: 200px;
+    height: 180px;
+    object-fit: contain;
     transition: 1s;
     box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
   }
